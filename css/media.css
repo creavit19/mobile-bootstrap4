@@ -1,0 +1,109 @@
+/*==========  Mobile First Method  ==========*/
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+header .carousel-item{
+	height:51vw;
+}
+header .logo{
+	font-size: 1.2rem;
+}
+header .carousel h5{
+	font-size: .8rem;
+}
+header .carousel p, header .carousel a{
+	font-size: .6rem;
+}
+header .carousel-item a{
+	padding:0 .5rem;
+}
+}
+@media only screen and (min-width : 567px) {
+	header .logo{
+	font-size: 2.14rem;
+}
+header .carousel-item{
+	height:290px;
+}
+header .carousel h5{
+	font-size: .9rem;
+}
+header .carousel p, header .carousel a{
+	font-size: .7rem;
+}
+main .rmiddle h4{
+	font-size: 1rem;
+}
+main .hmain h2{
+	font-size: 1.8rem;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+header .carousel-item{
+	height:385px;
+}
+header .carousel h5{
+	font-size: 1.3rem;
+}
+header .carousel-item a{
+	padding:0 1.5rem;
+}
+header .carousel p, header .carousel a{
+	font-size: 1rem;
+}
+main .alignfz{
+	text-align: left;
+}
+main .rmiddle h4{
+	margin-bottom: 0;
+	margin-top: 1rem;
+	font-size: 1.6rem;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+header .carousel-item{
+	height:500px;
+}
+header .carousel h5{
+	font-size: 1.6rem;
+}
+header .carousel{
+	font-size: 1rem;
+}
+.wtooth{
+	margin-top:-.2rem;
+}
+.tooth{
+	z-index:9999;
+}
+main .rmiddle{
+	font-size: .6rem;	
+}
+main .rmiddle h4{
+	font-size: 1rem;
+	margin-bottom: .5rem;
+	margin-top:0;
+}
+main .alignfz{
+	text-align: center;
+}
+main .dummyimg{
+	width:100%;
+}
+main .dummytext p{
+	font-size: .8rem;
+	line-height: 2.5em;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1140px) {
+header .carousel-item{
+	height:594px;
+}
+
+}

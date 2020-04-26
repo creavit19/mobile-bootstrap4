@@ -1,0 +1,136 @@
+html{
+	font-family: SegoePrint;
+	font-size:28px;
+	color:#909090;
+}
+body{
+	min-width:380px;
+	max-width:1200px;
+	margin:0 auto;
+}
+header{
+	font-family: Jokerman;
+	background-image: url(../img/bg-header.png);
+	background-attachment: fixed;
+ 	background-size: cover;
+ 	background-position: center;
+}
+header .nav-link{
+	font-size: 0.9rem;
+	color:#6c6c6c;
+}
+header .logo{
+	font-size: 1.2rem;
+	color:#5094f2;
+}
+header .navbar-nav .active{
+	border-bottom: 3px solid #5094f2;
+}
+header .navbar-toggler-icon{
+	width: 3rem;
+  height: 1.93rem;
+	background-image: url(../img/mnu_button.png);
+	margin-bottom:10px;
+}
+header .tooth{
+	background-image: url(../img/tooth.png);
+ 	background-position: bottom;
+ 	background-repeat: repeat-x;
+ 	height:7px;
+}
+header .carousel{
+	font-family: StylusBT;
+}
+header .carousel{
+	font-family: StylusBT;
+	font-size: .6rem;
+}
+header .carousel a{
+	font-size: .6rem;
+}
+header .carousel h5{
+	font-family: StylusBT;
+	font-size: .8rem;
+}
+header .carousel-control-next-icon, header .carousel-control-prev-icon{
+		width:1rem;
+    height:2.3rem;
+}
+header .carousel-control-next-icon{
+    background-image: url("../img/next.png");
+}
+header .carousel-control-prev-icon{
+    background-image: url("../img/prev.png");
+}
+header .carousel-control-next, header .carousel-control-prev{
+	width:4%;
+}
+header .carousel-caption {
+    top: 50%;
+    left: 75%;
+    right:auto;
+    bottom:auto;
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+header .carousel-item{
+	height:205px;
+}
+header .carousel-item .mcarimg{
+	width:35%;
+}
+header .btn-primary {
+    background-color: #5094f2;
+    border-color: #5094f2;
+}
+header .btn{
+		border-radius:2px;
+}
+header .carousel-item a{
+	padding:0 .2rem;
+}
+header .carousel-item a img{
+	height: 1.4rem;
+	padding:0.1rem 0.5rem 0.3rem 0;
+}
+main .rmiddle{
+	font-family: StylusBT;
+	font-size: 1rem;
+	color:#6c6c6c;
+}
+main .rmiddle h4{
+	color:#5094f2;
+	font-size: 1rem;
+	font-weight: bold;
+}
+main .alignfz{
+	text-align: center;
+}
+main .hmain h2{
+	font-family: Jokerman;
+	color:#4d8ed7;
+	font-size: 8.8vw;
+	text-shadow:6px 9px 0 #ced1dc;
+}
+main .dummyimg{
+	width:70%;
+}
+main .dummytext{
+	font-family: StylusBT;
+}
+main .dummytext p{
+	color:#909090;
+	font-size: .9rem;
+	line-height: 2em;
+}
+main .dummytext h3{
+	color:#6f7173;
+	font-size: 1.6rem;
+}
+footer{
+	font-family: Algerian;
+	font-size: 1rem;
+	color:#909090;
+	padding:40px 0 30px 0;
+	border-top:1px solid #e5e5e5;
+}
